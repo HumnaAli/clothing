@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+nav {
+    position: fixed;
+    padding: 25px 60px;
+    z-index: 1;
+}
+nav a img {
+    width: 167px;
+}
+body{
+    background: url(image/main.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 150vh;
+    overflow-x: hidden;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+  }
+  ul li{
+    display: inline-block;
+ }
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.wrapper{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    font-style: bold;
+}
+.wrapper ul{
+    list-style: none;
+    margin-top: 2%;
+    display: inline-block;
+}
+ul li a:hover{
+    background-color:#fff;
+    color: #000;
+}
+.wrapper ul li{
+    background: transparent;
+    width: 170px;
+    border: 1px solid transparent;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #000000;
+    font-size: 17px;
+    position: relative;
+    
+}
+
+.wrapper ul ul{
+    display: none;
+}
+.wrapper ul li:hover>ul{
+    display: block;
+}
+.container{
+    padding: 6% 25%;
+    width: 80%;
+    top: 10vh;
+    margin: 20px auto;
+    z-index: 0;
+}
+h{
+    position: absolute;
+    top: 20%;
+    right: 45%;
+    border-left: 5px solid #e6dc53;
+    font-size: 40px;
+    color: #000000;
+
+}
+h1{
+    font-family: Tahoma,Geneva,sans-serif;
+    text-transform: uppercase;
+    border-left: 5px solid #ee9734;
+    color: rgb(209, 81, 59);
+    position: relative;
+    top: 50px;
+
+}
+.jacket{
+    width: 70%;
+    float: left;
+    position: relative;
+    left: -10%;
+    top: 130px;
+    background: transparent;
+    margin: 5px;
+    padding: 10px;
+}
+.icon{
+    width: 15%;
+    float: left;
+    line-height: 100px;
+}
+.content{
+    display: grid;
+    color: #000000;
+	position: relative;
+    right: -17%;
+    font-size: 19px;
+
+}
+   
+button{
+    background: #e7d39a;
+    border-radius: 7px;
+    padding: 6px 6px;
+    position: absolute;
+    bottom: -100%;
+    right: 20%;
+    color: antiquewhite;
+    float: right;
+    cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+.button a:hover{
+    background-color:#fff;
+    color: #000;
+}
